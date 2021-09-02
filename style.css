@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#screen{
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    background-color: wheat; 
+}
+#screen1{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;  
+}
+#workSpace{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center; 
+}
+#workSpace2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center; 
+}
+#formSpace{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center; 
+}
+#form{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    background: rgba(255, 0, 0, 0.616);
+    box-shadow: inset 2px 2px 12px red;
+    border-radius: 30px;
+    width: 600px;
+    padding: 30px;
+}
+#errDisplay{
+    color: red;
+    display: none;
+}
+.resDiv{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    width: 600px;
+    padding: 10px;
+}
+#resultSpace{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.taskShow{
+    background-color: black;
+    color: white;
+}
